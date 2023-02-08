@@ -1,0 +1,144 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(images/taikinstep.gif);
+    background-position: center center;
+    background-size:cover;
+}
+
+li{
+    list-style: none;
+}
+
+.clear{
+    clear:left;
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color :rgba(176, 177, 178, 0.9);
+    position:fixed;
+    top:0;
+    z-index: 10;
+
+}
+
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+.header-left{
+    float: left;
+}
+
+.header-left a{
+    line-height: 65px;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(115, 115, 115);
+    display:block;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.header-left a:hover{
+    color: rgba(115, 115, 115, 0.5);
+}
+
+.header-right{
+    float: right;
+    color:rgb(115, 115, 115);
+    
+}
+
+
+.header-right li{
+    float: left;
+    padding: 0 20px;
+    
+}
+
+.header-menu a{
+    text-decoration: none;
+    color:rgb(115, 115, 115);
+    font-size: 20px;
+    transition:all 0.5s;
+}
+
+.header-menu a:hover{
+    color:rgba(115, 115, 115, 0.5);
+}
+
+main{
+    padding-top:80px;
+    display:flex;
+}
+
+.rondombg{
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section-title h1{
+    font-size: 100px;
+    font-weight: 400;
+    color:black;
+}
+
+.section-title h2{
+    font-size: 30px;
+    letter-spacing: 5px;
+    color:black;
+}
+
+.menu{
+    flex-direction: column;
+}
+
+.menu ul{
+    list-style-position: inside;
+}
+
+.menu a{
+   text-decoration: none;
+   font-size: 50px;
+   color:black;
+   margin-top: 30px;
+   transition:all 0.5s;
+   display: inline-block;
+}
+
+.menu a:hover{
+    opacity: 0.5;
+}
+
+.section-title p{
+    font-size: 20px;
+    padding-top:20px;
+}
+
+.link{
+    margin-top:25px;
+}
+
+.twitter-logo{
+    width: 40px;
+    padding-right: 20px;
+}
+
+.yt-logo{
+    width: 120px;
+}
+
+.yt-embed{
+    display:block;
+    margin: 10px 0 80px 0;
+}
+
+.sound-embed iframe{
+    margin: 10px 0 ;
+}
